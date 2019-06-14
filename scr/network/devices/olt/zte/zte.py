@@ -28,7 +28,6 @@ class ZTE(Snmp):
                                   'OnuSysUptime':'.1.3.6.1.4.1.3902.1012.3.50.11.2.1.20',
                                   'OnuRxOptLvl':'.1.3.6.1.4.1.3902.1012.3.50.12.1.1.10', #Need a custom equation to validate value, it's (OnuRxOptLvl * 0.002) - 30
                                   'OnuTxOptLvl':'.1.3.6.1.4.1.3902.1012.3.50.12.1.1.14', #Need a custom equation to validate value, it's (OnuTxOptLvl * 0.002) - 30
-                                  #'OnuOptModTemp':'1.3.6.1.4.1.3902.1015.3.1.13.1.12',
                                   'OnuState':'.1.3.6.1.4.1.3902.1012.3.28.2.1.4',
                                   'OnuModel':'.1.3.6.1.4.1.3902.1012.3.50.11.2.1.9',
                                   'OnuVlan':'.1.3.6.1.4.1.3902.1012.3.11.4.1.2'

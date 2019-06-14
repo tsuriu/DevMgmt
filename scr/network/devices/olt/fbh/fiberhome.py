@@ -14,12 +14,26 @@ class Fiberhome(Snmp):
                    },
             'Onu': {
                         'OnuUncfg': {
-
+                                     'unauthOnuListMac':'1.3.6.1.4.1.5875.800.3.11.1.1.7',
+                                     'unauthOnuListSlot':'1.3.6.1.4.1.5875.800.3.11.1.1.2',
+                                     'unauthOnuListPon':'1.3.6.1.4.1.5875.800.3.11.1.1.3'
                                     },
                         'OnuCfg':   {
-
+                                    'authOnyListMac':'1.3.6.1.4.1.5875.800.3.10.1.1.10',
+                                    'authOnuListSlot':'1.3.6.1.4.1.5875.800.3.10.1.1.2',
+                                    'authOnuListPon':'1.3.6.1.4.1.5875.800.3.10.1.1.3',
+                                    'authOnuListOnuid':'1.3.6.1.4.1.5875.800.3.10.1.1.4',
+                                    'authOnuListOnuType':'1.3.6.1.4.1.5875.800.3.10.1.1.5',
+                                    'authOnuListOnuName':'1.3.6.1.4.1.5875.800.3.10.1.1.7',
+                                    'authOnuStatus':'1.3.6.1.4.1.5875.800.3.10.1.1.11',
+                                    'authOnuSoftwareVersion':'1.3.6.1.4.1.5875.800.3.10.1.1.12',
+                                    'authOnuHardwareVersion':'1.3.6.1.4.1.5875.800.3.10.1.1.13',
+                                    'authOnuFirmwareVersion':'1.3.6.1.4.1.5875.800.3.10.1.1.14',
+                                    'authOnuPonRxOpticalPower':'1.3.6.1.4.1.5875.800.3.9.3.3.1.6',
+                                    'authOnuPonTxOpticalPower':'1.3.6.1.4.1.5875.800.3.9.3.3.1.7',
+                                    'authOnuPonOpticalTemperature':'1.3.6.1.4.1.5875.800.3.9.3.3.1.10'
                                     }
-                   }    
+                    }    
                 }
 
     def __init__(self,host,snmpword,ver):
