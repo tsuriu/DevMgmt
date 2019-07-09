@@ -16,10 +16,6 @@ create table hosts (
 create table olt (
   olt_id interger primary key autoincrement,
   host_id int unsigned not null,
-  mgmt_cnt int unsigner not null,
-  pon_cnt int unsigner not null,
-  onu_auth_cnt int unsigner not null,
-  onu_unauth_cnt int unsigner not null
 );  
 
 create table olt_card ();
