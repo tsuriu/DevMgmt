@@ -1,0 +1,4 @@
+### Install easysnmp right way
+	apt install python3.x-dev && pip install git+https://github.com/kamakazikamikaze/easysnmp.git
+
+### 
