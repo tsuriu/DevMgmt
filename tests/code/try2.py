@@ -1,4 +1,5 @@
-from snmpgetdt import Snmp
+sys.path.inser(0, '../../../protocol/snmpc.py')
+from snmpc import Snmp
 
 oid = '.1.3.6.1.2.1.1.3.0'
 oid2 = '.1.3.6.1.2.1.31.1.1.1.1'
