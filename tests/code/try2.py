@@ -1,4 +1,6 @@
-sys.path.inser(0, '../../../protocol/snmpc.py')
+import sys
+sys.path.insert(0, '../../scr/network/protocol/snmpc.py')
+
 from snmpc import Snmp
 
 oid = '.1.3.6.1.2.1.1.3.0'

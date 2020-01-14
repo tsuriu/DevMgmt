@@ -1,5 +1,5 @@
 import sys
-sys.path.inser(0,'../../../protocol/snmpc.py')
+sys.path.insert(0,'../../../protocol/snmpc.py')
 
 from snmpc import snmp
 
