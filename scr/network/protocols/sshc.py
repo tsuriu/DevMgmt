@@ -9,7 +9,7 @@ class ssh:
         self.client.set_missing_host_key_policy(client.AutoAddPolicy())
         self.client.connect(host,username=user,password=passwd,look_for_keys=False)
 
-    def sendCommand(self, cmd):
+    def execute(self, cmd):
         if(self.client):
             stdin, stdout, stderr = self.client.exec_command(cmd)
             while not stdout.channel.exit_status_ready():
